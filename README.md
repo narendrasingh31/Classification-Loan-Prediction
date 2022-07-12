@@ -16,8 +16,13 @@ Company wants to automate the loan eligibility process (real time) based on cust
 ## Overview:
 In this project, we are going to predict the Loan Status of customers fro home loan using various information of customers Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others.
 
-## Comparison of Loan Status with Education type:
-![image](https://user-images.githubusercontent.com/104161233/177940250-e2e43030-1128-4d43-bdea-6b7ae74c1daa.png)
+## Comparison of Loan Status with Gender:
+![image](https://user-images.githubusercontent.com/104161233/178444028-fc6cda35-ce44-4d57-8bfe-35844b8891a5.png)
+
+## Comparison of Loan Status with Property area:
+![image](https://user-images.githubusercontent.com/104161233/178444343-318f2fe3-06ea-4ce6-b6f2-e6880e0ab0b5.png)
+
+
 
 ## Data Dictionary:
 Variable - Description
@@ -52,4 +57,5 @@ This dataset can be obtained in the following challenge: https://datahack.analyt
 
 
 ## Conclusion:
-In this project, we tried to build a model using ML algorithms,and the k-Nearest Neighbour is the the best possible prediction to get the Loan status.
+- In this project, we tried to build a model using ML algorithms,and the Logistic Regression is the the best possible prediction to get the Loan status.
+- The Logistic Regression algorithm gives us the maximum Accuracy (85% approx) compared to the other 4 Machine Learning Classification Algorithms.
